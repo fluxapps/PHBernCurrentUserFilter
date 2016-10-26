@@ -24,4 +24,8 @@ class ilPHBernCurrentUserFilterFieldModel extends ilDclBooleanFieldModel {
 		return null;
 	}
 
+
+	public function getExportable() {
+		return false;
+	}
 }
